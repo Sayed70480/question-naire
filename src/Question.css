@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #9689f6;
+    font-family: 'Cinzel', serif;
+}
+
+.container{
+    max-width: 75%;
+    text-align: center;
+   margin-top: 5%;
+   /* border: 2px solid red; */
+   padding: 20px 30px 20px 30px;
+   background-color: #ecf0f1;
+   box-shadow: 2px 2px 20px #34495e;
+   
+  
+}
+
+.title{
+ padding: 10px;
+ background: none;
+ font-weight: 500;
+ font-size: 3rem;
+ color: #9689f6;
+
+}
+
+@media screen and (max-width: 480px) {
+    .title {
+        font-size: 2rem;
+    }
+}
+
+.List{
+    margin-bottom: 30px;
+    box-shadow:3px 3px 10px #34495e;
+    
+    
+}
+
+.answer{
+    
+background-color: #ecf0f1;
+border: none;
+}
